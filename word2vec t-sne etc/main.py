@@ -28,7 +28,7 @@ ANALOGY_NEGATIVE = ["man"]
 
 # 20 слов для визуализации, разделённых на две темы
 GEO_WORDS = ["russia", "france", "austria", "italy", "poland",
-             "prussia", "england", "turkey", "moscow", "paris"]
+             "england", "turkey", "moscow", "paris"]
 TITLE_WORDS = ["general", "soldier", "officer", "doctor", "priest",
                "count", "prince", "emperor", "colonel", "captain"]
 VIS_WORDS = GEO_WORDS + TITLE_WORDS

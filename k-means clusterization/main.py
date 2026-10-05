@@ -113,7 +113,7 @@ df_bal["text_clean"] = df_bal["text"].apply(lambda t: " ".join(simple_tokenize(t
 tfidf = TfidfVectorizer(min_df=5, max_df=0.7, ngram_range=(1, 2), max_features=100_000)
 X = tfidf.fit_transform(df_bal["text_clean"])
 
-# на малом корпусе 200 компонент невозможно - ограничиваем размерностью данных
+
 n_comp = min(200, X.shape[0] - 1, X.shape[1] - 1)
 lsa = make_pipeline(TruncatedSVD(n_components=n_comp, random_state=42), Normalizer(copy=False))
 Xm = lsa.fit_transform(X)
