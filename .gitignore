@@ -1,2 +1,4 @@
 *.keras
 __pycache__
+*.csv
+*.xml
