@@ -1,0 +1,566 @@
+[
+  {
+    "id": "q01",
+    "group": "clean",
+    "original_text": "Найти статьи о работах Ломоносова в Москве.",
+    "correct_text": "Найти статьи о работах Ломоносова в Москве.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 23,
+        "end": 33,
+        "text": "Ломоносова",
+        "type": "PERSON"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 23,
+        "end": 33,
+        "text": "Ломоносова",
+        "type": "PERSON"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "group": "clean",
+    "original_text": "Где находится Московский государственный университет?",
+    "correct_text": "Где находится Московский государственный университет?",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 14,
+        "end": 52,
+        "text": "Московский государственный университет",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 14,
+        "end": 52,
+        "text": "Московский государственный университет",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "group": "clean",
+    "original_text": "Расписание поездов из Санкт-Петербурга в Казань.",
+    "correct_text": "Расписание поездов из Санкт-Петербурга в Казань.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "text": "Санкт-Петербурга",
+        "type": "LOC"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "text": "Казань",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "text": "Санкт-Петербурга",
+        "type": "LOC"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "text": "Казань",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "group": "clean",
+    "original_text": "Когда открылась Третьяковская галерея для посетителей?",
+    "correct_text": "Когда открылась Третьяковская галерея для посетителей?",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 16,
+        "end": 37,
+        "text": "Третьяковская галерея",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 16,
+        "end": 37,
+        "text": "Третьяковская галерея",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "group": "clean",
+    "original_text": "Книги Льва Толстого о войне и мире.",
+    "correct_text": "Книги Льва Толстого о войне и мире.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 6,
+        "end": 19,
+        "text": "Льва Толстого",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 6,
+        "end": 19,
+        "text": "Льва Толстого",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "group": "word_typo",
+    "original_text": "Найти стаьи о жизни Пушкина.",
+    "correct_text": "Найти статьи о жизни Пушкина.",
+    "typos": [
+      {
+        "start": 6,
+        "end": 11,
+        "wrong": "стаьи",
+        "correct": "статьи",
+        "kind": "deletion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "text": "Пушкина",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "text": "Пушкина",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "group": "word_typo",
+    "original_text": "Основные прозиведения Достоевского.",
+    "correct_text": "Основные произведения Достоевского.",
+    "typos": [
+      {
+        "start": 9,
+        "end": 21,
+        "wrong": "прозиведения",
+        "correct": "произведения",
+        "kind": "transposition"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 22,
+        "end": 34,
+        "text": "Достоевского",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 22,
+        "end": 34,
+        "text": "Достоевского",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "group": "word_typo",
+    "original_text": "Погода в Сочи сегодняя.",
+    "correct_text": "Погода в Сочи сегодня.",
+    "typos": [
+      {
+        "start": 14,
+        "end": 22,
+        "wrong": "сегодняя",
+        "correct": "сегодня",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "text": "Сочи",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "text": "Сочи",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "group": "word_typo",
+    "original_text": "Купить билиты в Большой театр.",
+    "correct_text": "Купить билеты в Большой театр.",
+    "typos": [
+      {
+        "start": 7,
+        "end": 13,
+        "wrong": "билиты",
+        "correct": "билеты",
+        "kind": "substitution"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 16,
+        "end": 29,
+        "text": "Большой театр",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 16,
+        "end": 29,
+        "text": "Большой театр",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "group": "word_typo",
+    "original_text": "Когда был оснвоан Яндекс?",
+    "correct_text": "Когда был основан Яндекс?",
+    "typos": [
+      {
+        "start": 10,
+        "end": 17,
+        "wrong": "оснвоан",
+        "correct": "основан",
+        "kind": "transposition"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "text": "Яндекс",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "text": "Яндекс",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "group": "entity_typo",
+    "original_text": "Я живу в Маскве.",
+    "correct_text": "Я живу в Москве.",
+    "typos": [
+      {
+        "start": 9,
+        "end": 15,
+        "wrong": "Маскве",
+        "correct": "Москве",
+        "kind": "substitution"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "text": "Маскве",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "text": "Москве",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "group": "entity_typo",
+    "original_text": "Работы Ломоносва по химии.",
+    "correct_text": "Работы Ломоносова по химии.",
+    "typos": [
+      {
+        "start": 7,
+        "end": 16,
+        "wrong": "Ломоносва",
+        "correct": "Ломоносова",
+        "kind": "deletion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "text": "Ломоносва",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "text": "Ломоносова",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "group": "entity_typo",
+    "original_text": "Московксий государственный университет: факультеты.",
+    "correct_text": "Московский государственный университет: факультеты.",
+    "typos": [
+      {
+        "start": 0,
+        "end": 10,
+        "wrong": "Московксий",
+        "correct": "Московский",
+        "kind": "transposition"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 0,
+        "end": 38,
+        "text": "Московксий государственный университет",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 0,
+        "end": 38,
+        "text": "Московский государственный университет",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "group": "entity_typo",
+    "original_text": "Музеи Санкт-Птербурга.",
+    "correct_text": "Музеи Санкт-Петербурга.",
+    "typos": [
+      {
+        "start": 6,
+        "end": 21,
+        "wrong": "Санкт-Птербурга",
+        "correct": "Санкт-Петербурга",
+        "kind": "deletion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 6,
+        "end": 21,
+        "text": "Санкт-Птербурга",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 6,
+        "end": 22,
+        "text": "Санкт-Петербурга",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "group": "entity_typo",
+    "original_text": "Выставки в Третьяковксой галерее.",
+    "correct_text": "Выставки в Третьяковской галерее.",
+    "typos": [
+      {
+        "start": 11,
+        "end": 24,
+        "wrong": "Третьяковксой",
+        "correct": "Третьяковской",
+        "kind": "transposition"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 11,
+        "end": 32,
+        "text": "Третьяковксой галерее",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 11,
+        "end": 32,
+        "text": "Третьяковской галерее",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "group": "rare_name",
+    "original_text": "Биография Циолковского и его идеи.",
+    "correct_text": "Биография Циолковского и его идеи.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 10,
+        "end": 22,
+        "text": "Циолковского",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 10,
+        "end": 22,
+        "text": "Циолковского",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "group": "rare_name",
+    "original_text": "Как добраться до Мышкина на автобусе?",
+    "correct_text": "Как добраться до Мышкина на автобусе?",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "text": "Мышкина",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "text": "Мышкина",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "group": "rare_name",
+    "original_text": "Работы Прокудина-Горского по цветной фотографии.",
+    "correct_text": "Работы Прокудина-Горского по цветной фотографии.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "text": "Прокудина-Горского",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "text": "Прокудина-Горского",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "group": "rare_name",
+    "original_text": "Вакансии в Росатоме.",
+    "correct_text": "Вакансии в Росатоме.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "text": "Росатоме",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "text": "Росатоме",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "group": "rare_name",
+    "original_text": "Отзывы о Лаборатории Касперского.",
+    "correct_text": "Отзывы о Лаборатории Касперского.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 9,
+        "end": 32,
+        "text": "Лаборатории Касперского",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 9,
+        "end": 32,
+        "text": "Лаборатории Касперского",
+        "type": "ORG"
+      }
+    ]
+  }
+]

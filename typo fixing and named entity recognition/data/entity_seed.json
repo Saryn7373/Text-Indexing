@@ -1,0 +1,293 @@
+[
+ {
+  "name": "Михаил Ломоносов",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Александр Пушкин",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Лев Толстой",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Фёдор Достоевский",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Антон Чехов",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Максим Горький",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Дмитрий Менделеев",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Юрий Гагарин",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Сергей Королёв",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Константин Циолковский",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Владимир Вернадский",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Пётр Чайковский",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Иван Павлов",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Лев Ландау",
+  "type": "PERSON",
+  "source": "corpus",
+  "inflect": false,
+  "manual": [
+   "Лев Ландау",
+   "Льва Ландау",
+   "Льву Ландау",
+   "Львом Ландау",
+   "Льве Ландау",
+   "Ландау"
+  ]
+ },
+ {
+  "name": "Павел Третьяков",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Евгений Касперский",
+  "type": "PERSON",
+  "source": "corpus"
+ },
+ {
+  "name": "Сергей Прокудин-Горский",
+  "type": "PERSON",
+  "source": "dev",
+  "inflect": false,
+  "manual": [
+   "Сергей Прокудин-Горский",
+   "Прокудин-Горский",
+   "Прокудина-Горского",
+   "Прокудину-Горскому",
+   "Прокудиным-Горским",
+   "Прокудине-Горском"
+  ]
+ },
+ {
+  "name": "Московский государственный университет",
+  "type": "ORG",
+  "source": "corpus",
+  "manual": [
+   "МГУ"
+  ]
+ },
+ {
+  "name": "Российская академия наук",
+  "type": "ORG",
+  "source": "corpus",
+  "inflect": false,
+  "manual": [
+   "Российская академия наук",
+   "Российской академии наук",
+   "Российскую академию наук",
+   "Российской академией наук",
+   "РАН"
+  ]
+ },
+ {
+  "name": "Третьяковская галерея",
+  "type": "ORG",
+  "source": "corpus"
+ },
+ {
+  "name": "Большой театр",
+  "type": "ORG",
+  "source": "corpus"
+ },
+ {
+  "name": "Эрмитаж",
+  "type": "ORG",
+  "source": "corpus"
+ },
+ {
+  "name": "Яндекс",
+  "type": "ORG",
+  "source": "corpus"
+ },
+ {
+  "name": "Сбербанк",
+  "type": "ORG",
+  "source": "corpus"
+ },
+ {
+  "name": "Газпром",
+  "type": "ORG",
+  "source": "corpus"
+ },
+ {
+  "name": "Роскосмос",
+  "type": "ORG",
+  "source": "corpus"
+ },
+ {
+  "name": "Российские железные дороги",
+  "type": "ORG",
+  "source": "corpus",
+  "inflect": false,
+  "manual": [
+   "Российские железные дороги",
+   "Российских железных дорог",
+   "Российским железным дорогам",
+   "Российскими железными дорогами",
+   "РЖД"
+  ]
+ },
+ {
+  "name": "Лаборатория Касперского",
+  "type": "ORG",
+  "source": "corpus",
+  "inflect": false,
+  "manual": [
+   "Лаборатория Касперского",
+   "Лаборатории Касперского",
+   "Лабораторию Касперского",
+   "Лабораторией Касперского"
+  ]
+ },
+ {
+  "name": "Росатом",
+  "type": "ORG",
+  "source": "dev"
+ },
+ {
+  "name": "Москва",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Санкт-Петербург",
+  "type": "LOC",
+  "source": "corpus",
+  "inflect": false,
+  "manual": [
+   "Санкт-Петербург",
+   "Санкт-Петербурга",
+   "Санкт-Петербургу",
+   "Санкт-Петербургом",
+   "Санкт-Петербурге"
+  ]
+ },
+ {
+  "name": "Казань",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Байкал",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Волга",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Сочи",
+  "type": "LOC",
+  "source": "corpus",
+  "inflect": false,
+  "manual": [
+   "Сочи"
+  ]
+ },
+ {
+  "name": "Новосибирск",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Томск",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Екатеринбург",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Нижний Новгород",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Владивосток",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Россия",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Сибирь",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Урал",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Подмосковье",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Иркутск",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Калуга",
+  "type": "LOC",
+  "source": "corpus"
+ },
+ {
+  "name": "Мышкин",
+  "type": "LOC",
+  "source": "dev"
+ }
+]

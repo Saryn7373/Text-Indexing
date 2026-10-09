@@ -1,0 +1,114 @@
+[
+  {
+    "id": "demo01",
+    "group": "real_word_typo",
+    "original_text": "Книги о мире и Горьком.",
+    "correct_text": "Книги о море и Горьком.",
+    "typos": [
+      {
+        "start": 8,
+        "end": 12,
+        "wrong": "мире",
+        "correct": "море",
+        "kind": "substitution"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "text": "Горьком",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "text": "Горьком",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "demo02",
+    "group": "real_word_typo",
+    "original_text": "Найти город рядом с Байкалом.",
+    "correct_text": "Найти горы рядом с Байкалом.",
+    "typos": [
+      {
+        "start": 6,
+        "end": 11,
+        "wrong": "город",
+        "correct": "горы",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "text": "Байкалом",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "text": "Байкалом",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "demo03",
+    "group": "new_query",
+    "original_text": "Найти стаьи о Лермонтове в Санкт-Птербурге.",
+    "correct_text": "Найти статьи о Лермонтове в Санкт-Петербурге.",
+    "typos": [
+      {
+        "start": 6,
+        "end": 11,
+        "wrong": "стаьи",
+        "correct": "статьи",
+        "kind": "deletion"
+      },
+      {
+        "start": 27,
+        "end": 42,
+        "wrong": "Санкт-Птербурге",
+        "correct": "Санкт-Петербурге",
+        "kind": "deletion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "text": "Лермонтове",
+        "type": "PERSON"
+      },
+      {
+        "start": 27,
+        "end": 42,
+        "text": "Санкт-Птербурге",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "text": "Лермонтове",
+        "type": "PERSON"
+      },
+      {
+        "start": 28,
+        "end": 44,
+        "text": "Санкт-Петербурге",
+        "type": "LOC"
+      }
+    ]
+  }
+]

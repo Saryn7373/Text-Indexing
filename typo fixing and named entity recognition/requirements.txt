@@ -1,0 +1,5 @@
+natasha==1.6.0
+slovnet==0.6.0
+navec==0.10.0
+pymorphy3==2.0.6
+pymorphy3-dicts-ru==2.4.417150.4580142

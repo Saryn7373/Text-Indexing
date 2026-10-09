@@ -1,0 +1,554 @@
+[
+  {
+    "id": "q21",
+    "group": "clean",
+    "original_text": "Что известно о Менделееве и таблице элементов?",
+    "correct_text": "Что известно о Менделееве и таблице элементов?",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "text": "Менделееве",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "text": "Менделееве",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q22",
+    "group": "clean",
+    "original_text": "Новости Сбербанка за неделю.",
+    "correct_text": "Новости Сбербанка за неделю.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "text": "Сбербанка",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "text": "Сбербанка",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q23",
+    "group": "clean",
+    "original_text": "Как доехать до Новосибирска из Томска?",
+    "correct_text": "Как доехать до Новосибирска из Томска?",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "text": "Новосибирска",
+        "type": "LOC"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "text": "Томска",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "text": "Новосибирска",
+        "type": "LOC"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "text": "Томска",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q24",
+    "group": "clean",
+    "original_text": "Когда Юрий Гагарин полетел в космос?",
+    "correct_text": "Когда Юрий Гагарин полетел в космос?",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 6,
+        "end": 18,
+        "text": "Юрий Гагарин",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 6,
+        "end": 18,
+        "text": "Юрий Гагарин",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q25",
+    "group": "clean",
+    "original_text": "Билеты в Эрмитаж на выходные.",
+    "correct_text": "Билеты в Эрмитаж на выходные.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "text": "Эрмитаж",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "text": "Эрмитаж",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q26",
+    "group": "word_typo",
+    "original_text": "Найти иформацию о Роскосмосе.",
+    "correct_text": "Найти информацию о Роскосмосе.",
+    "typos": [
+      {
+        "start": 6,
+        "end": 15,
+        "wrong": "иформацию",
+        "correct": "информацию",
+        "kind": "deletion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "text": "Роскосмосе",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 19,
+        "end": 29,
+        "text": "Роскосмосе",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q27",
+    "group": "word_typo",
+    "original_text": "Где нахдоится Большой театр?",
+    "correct_text": "Где находится Большой театр?",
+    "typos": [
+      {
+        "start": 4,
+        "end": 13,
+        "wrong": "нахдоится",
+        "correct": "находится",
+        "kind": "transposition"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 14,
+        "end": 27,
+        "text": "Большой театр",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 14,
+        "end": 27,
+        "text": "Большой театр",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q28",
+    "group": "word_typo",
+    "original_text": "Фотографии Байкала леттом.",
+    "correct_text": "Фотографии Байкала летом.",
+    "typos": [
+      {
+        "start": 19,
+        "end": 25,
+        "wrong": "леттом",
+        "correct": "летом",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "text": "Байкала",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "text": "Байкала",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q29",
+    "group": "word_typo",
+    "original_text": "Какие повести напсиал Чехов?",
+    "correct_text": "Какие повести написал Чехов?",
+    "typos": [
+      {
+        "start": 14,
+        "end": 21,
+        "wrong": "напсиал",
+        "correct": "написал",
+        "kind": "transposition"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "text": "Чехов",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "text": "Чехов",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q30",
+    "group": "word_typo",
+    "original_text": "Расписание електричек до Казани.",
+    "correct_text": "Расписание электричек до Казани.",
+    "typos": [
+      {
+        "start": 11,
+        "end": 21,
+        "wrong": "електричек",
+        "correct": "электричек",
+        "kind": "substitution"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "text": "Казани",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "text": "Казани",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q31",
+    "group": "entity_typo",
+    "original_text": "Музеи Новосибирка.",
+    "correct_text": "Музеи Новосибирска.",
+    "typos": [
+      {
+        "start": 6,
+        "end": 17,
+        "wrong": "Новосибирка",
+        "correct": "Новосибирска",
+        "kind": "deletion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "text": "Новосибирка",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 6,
+        "end": 18,
+        "text": "Новосибирска",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q32",
+    "group": "entity_typo",
+    "original_text": "Новости Сберабнка.",
+    "correct_text": "Новости Сбербанка.",
+    "typos": [
+      {
+        "start": 8,
+        "end": 17,
+        "wrong": "Сберабнка",
+        "correct": "Сбербанка",
+        "kind": "transposition"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "text": "Сберабнка",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "text": "Сбербанка",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q33",
+    "group": "entity_typo",
+    "original_text": "Лекции Менделеве.",
+    "correct_text": "Лекции Менделеева.",
+    "typos": [
+      {
+        "start": 7,
+        "end": 16,
+        "wrong": "Менделеве",
+        "correct": "Менделеева",
+        "kind": "deletion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "text": "Менделеве",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "text": "Менделеева",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q34",
+    "group": "entity_typo",
+    "original_text": "Адрес Российской акдемии наук.",
+    "correct_text": "Адрес Российской академии наук.",
+    "typos": [
+      {
+        "start": 17,
+        "end": 24,
+        "wrong": "акдемии",
+        "correct": "академии",
+        "kind": "deletion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 6,
+        "end": 29,
+        "text": "Российской акдемии наук",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 6,
+        "end": 30,
+        "text": "Российской академии наук",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q35",
+    "group": "entity_typo",
+    "original_text": "Погода в Ниджнем Новгороде.",
+    "correct_text": "Погода в Нижнем Новгороде.",
+    "typos": [
+      {
+        "start": 9,
+        "end": 16,
+        "wrong": "Ниджнем",
+        "correct": "Нижнем",
+        "kind": "insertion"
+      }
+    ],
+    "original_entities": [
+      {
+        "start": 9,
+        "end": 26,
+        "text": "Ниджнем Новгороде",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 9,
+        "end": 25,
+        "text": "Нижнем Новгороде",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q36",
+    "group": "rare_name",
+    "original_text": "Музей Игоря Сикорского.",
+    "correct_text": "Музей Игоря Сикорского.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 6,
+        "end": 22,
+        "text": "Игоря Сикорского",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 6,
+        "end": 22,
+        "text": "Игоря Сикорского",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q37",
+    "group": "rare_name",
+    "original_text": "Достопримечательности Углича.",
+    "correct_text": "Достопримечательности Углича.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "text": "Углича",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "text": "Углича",
+        "type": "LOC"
+      }
+    ]
+  },
+  {
+    "id": "q38",
+    "group": "rare_name",
+    "original_text": "Работа в Норникеле.",
+    "correct_text": "Работа в Норникеле.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 9,
+        "end": 18,
+        "text": "Норникеле",
+        "type": "ORG"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 9,
+        "end": 18,
+        "text": "Норникеле",
+        "type": "ORG"
+      }
+    ]
+  },
+  {
+    "id": "q39",
+    "group": "rare_name",
+    "original_text": "Труды Вернадского о биосфере.",
+    "correct_text": "Труды Вернадского о биосфере.",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "text": "Вернадского",
+        "type": "PERSON"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 6,
+        "end": 17,
+        "text": "Вернадского",
+        "type": "PERSON"
+      }
+    ]
+  },
+  {
+    "id": "q40",
+    "group": "rare_name",
+    "original_text": "Как добраться в Калязин?",
+    "correct_text": "Как добраться в Калязин?",
+    "typos": [],
+    "original_entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "text": "Калязин",
+        "type": "LOC"
+      }
+    ],
+    "correct_entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "text": "Калязин",
+        "type": "LOC"
+      }
+    ]
+  }
+]
